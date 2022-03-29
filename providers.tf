@@ -14,3 +14,8 @@ provider "google" {
   zone    = "us-west1-b"
 }
 
+provider "google-beta" {
+  project = "labdevopscloud-6aso-g25"
+  region  = "us-west1"
+  zone    = "us-west1-b"
+}
